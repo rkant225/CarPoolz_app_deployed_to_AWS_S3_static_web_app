@@ -1,0 +1,27 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color:black;
+  }
+  .table-hover > tbody > tr:hover{
+    background-color: lightblue;
+  }
+  .btn{
+    margin-right: 5px;
+  }
+  .filter-btn.btn-primary:active:focus{
+    background-color: lightseagreen !important;
+  }
